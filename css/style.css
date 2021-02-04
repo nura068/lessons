@@ -1,0 +1,133 @@
+.container{
+width: 1368px;
+margin-left: auto;
+margin-right: auto;
+}
+.heather{
+  display: inline-block;
+  background-color: #ffffff;
+  margin-top: 80px;
+}
+.img{
+  display: inline-block;
+  max-width: 45%;
+  vertical-align: middle;
+  padding-bottom: 96px;
+  padding-left: 123px;
+}
+.container-text{
+  margin-left: 75px;
+  font-family: tahoma;
+  display: inline-block;
+  max-width: 55%;
+  vertical-align: middle;
+  
+}
+.first-h1{
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.kate-aragon{
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 35px;
+}
+.description{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-bottom: 50px;
+}
+.price{
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-bottom: 53px;
+}
+.buy{
+  border-radius: 5px;
+  background-color: #f05a22;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  border-color: #f05a22;
+  padding: 22px 42px;
+}
+.buy-o{
+  background-color: transparent;
+  color: #f05a22;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-left: 40px
+}
+.delivery{
+  border: 1px solid #ffffff;
+  background-color: #f2f2f2;
+  padding-top: 89px;
+}
+.delivery-pay{
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center
+}
+.picture-box{
+  padding-top: 91px;
+  padding-bottom: 103px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  /* padding-left: 211px; */
+}
+.basket{
+  text-align: center;
+  display: inline-block;
+  width: 22%;
+}
+.basket-img{
+  /* max-height: 24px; */
+  padding-bottom: 24px;
+}
+.text-picture{
+  display: flex;
+  justify-content: center;
+}
+.who_buy{
+  padding-top: 90px;
+  padding-bottom: 29px;
+  text-align: center;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.who_buy_img{
+height: 859px;
+}
+.who_photo{
+  padding-left: 113px;
+  padding-right: 117px;
+}
+.ph{
+  display: inline-block;
+  width: 22%;
+  padding-right: 28px;
+  padding-top: 40px;
+}
+
+.photo_max__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 10px;
+}
+
+.photo_max {
+  width: 260px;
+  height: 260px;
+  background-color: #f0f0f0;
+}
